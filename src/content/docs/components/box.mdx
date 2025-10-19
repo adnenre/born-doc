@@ -1,0 +1,32 @@
+---
+title: Box
+description: A generic container component.
+---
+<DocsBornHeader title="Box" iconName="Box" />
+A Box is a generic, block-level container for other elements.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <div className="rounded-md border bg-card p-4 text-card-foreground shadow-sm">
+      This is a box.
+    </div>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    export function BoxDemo() {
+      return (
+        <div className="rounded-md border bg-card p-4 text-card-foreground shadow-sm">
+          This is a box.
+        </div>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

@@ -1,0 +1,49 @@
+---
+title: Radio
+description: A control that allows a user to select a single option from a set.
+---
+<DocsBornHeader title="Radio" iconName="CircleDot" />
+A radio button allows a user to select one option from a predefined set of mutually exclusive options.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <RadioGroup defaultValue="option-one">
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="option-one" id="option-one" />
+        <Label htmlFor="option-one">Option One</Label>
+      </div>
+      <div className="flex items-center space-x-2">
+        <RadioGroupItem value="option-two" id="option-two" />
+        <Label htmlFor="option-two">Option Two</Label>
+      </div>
+    </RadioGroup>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Label } from "@/components/ui/label";
+    import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+
+    export function RadioDemo() {
+      return (
+        <RadioGroup defaultValue="option-one">
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="option-one" id="option-one" />
+            <Label htmlFor="option-one">Option One</Label>
+          </div>
+          <div className="flex items-center space-x-2">
+            <RadioGroupItem value="option-two" id="option-two" />
+            <Label htmlFor="option-two">Option Two</Label>
+          </div>
+        </RadioGroup>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

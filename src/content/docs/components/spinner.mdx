@@ -1,0 +1,28 @@
+---
+title: Spinner
+description: A visual indicator that content is loading.
+---
+<DocsBornHeader title="Spinner" iconName="Loader2" />
+A spinner indicates that a part of the application is busy or loading.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <Loader2 className="h-8 w-8 animate-spin" />
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Loader2 } from "lucide-react";
+
+    export function SpinnerDemo() {
+      return <Loader2 className="h-8 w-8 animate-spin" />;
+    }
+    ```
+  </TabsContent>
+</Tabs>

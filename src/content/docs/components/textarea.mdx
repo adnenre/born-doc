@@ -1,0 +1,28 @@
+---
+title: Textarea
+description: Displays a multi-line text input field.
+---
+<DocsBornHeader title="Textarea" iconName="FileText" />
+A textarea is used for multi-line text input.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <Textarea placeholder="Type your message here." />
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Textarea } from "@/components/ui/textarea";
+
+    export function TextareaDemo() {
+      return <Textarea placeholder="Type your message here." />;
+    }
+    ```
+  </TabsContent>
+</Tabs>

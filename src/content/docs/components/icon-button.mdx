@@ -1,0 +1,35 @@
+---
+title: IconButton
+description: A button that contains only an icon.
+---
+<DocsBornHeader title="IconButton" iconName="MousePointerClick" />
+Icon buttons allow users to take actions and make choices with a single tap.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <Button variant="outline" size="icon">
+      <Heart className="h-4 w-4" />
+    </Button>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Button } from "@/components/ui/button";
+    import { Heart } from "lucide-react";
+
+    export function IconButtonDemo() {
+      return (
+        <Button variant="outline" size="icon">
+          <Heart className="h-4 w-4" />
+        </Button>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

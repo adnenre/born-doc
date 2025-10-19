@@ -1,0 +1,38 @@
+---
+title: Icon
+description: A component to render icons.
+---
+<DocsBornHeader title="Icon" iconName="Smile" />
+Icons are visual symbols used to represent actions, objects, or ideas. We use icons from `lucide-react`.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <div className="flex items-center gap-4">
+      <BookOpen className="h-6 w-6" />
+      <Heart className="h-6 w-6" />
+      <Settings className="h-6 w-6" />
+    </div>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { BookOpen, Heart, Settings } from "lucide-react";
+
+    export function IconDemo() {
+      return (
+        <div className="flex items-center gap-4">
+          <BookOpen className="h-6 w-6" />
+          <Heart className="h-6 w-6" />
+          <Settings className="h-6 w-6" />
+        </div>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

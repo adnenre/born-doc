@@ -1,0 +1,28 @@
+---
+title: Progress
+description: Displays an indicator showing the completion progress of a task.
+---
+<DocsBornHeader title="Progress" iconName="Loader" />
+A progress bar indicates the percentage of a task that has been completed.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <Progress value={33} />
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Progress } from "@/components/ui/progress";
+
+    export function ProgressDemo() {
+      return <Progress value={33} />;
+    }
+    ```
+  </TabsContent>
+</Tabs>

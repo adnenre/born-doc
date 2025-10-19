@@ -1,0 +1,28 @@
+---
+title: Input
+description: Displays a form input field or a component that looks like an input field.
+---
+<DocsBornHeader title="Input" iconName="Type" />
+An input field allows users to enter text or data.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <Input type="email" placeholder="Email" />
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Input } from "@/components/ui/input";
+
+    export function InputDemo() {
+      return <Input type="email" placeholder="Email" />;
+    }
+    ```
+  </TabsContent>
+</Tabs>

@@ -1,0 +1,44 @@
+---
+title: Button
+description: Displays a button or a component that looks like a button.
+---
+<DocsBornHeader title="Button" iconName="Square" />
+A button is an interactive element that a user can click or tap to trigger an action.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <div className="flex flex-wrap gap-4">
+      <Button>Default</Button>
+      <Button variant="secondary">Secondary</Button>
+      <Button variant="destructive">Destructive</Button>
+      <Button variant="outline">Outline</Button>
+      <Button variant="ghost">Ghost</Button>
+      <Button variant="link">Link</Button>
+    </div>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import { Button } from "@/components/ui/button";
+
+    export function ButtonDemo() {
+      return (
+        <div className="flex flex-wrap gap-4">
+          <Button>Default</Button>
+          <Button variant="secondary">Secondary</Button>
+          <Button variant="destructive">Destructive</Button>
+          <Button variant="outline">Outline</Button>
+          <Button variant="ghost">Ghost</Button>
+          <Button variant="link">Link</Button>
+        </div>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

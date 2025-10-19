@@ -1,0 +1,54 @@
+---
+title: Select
+description: Displays a list of options for the user to pick from.
+---
+<DocsBornHeader title="Select" iconName="ChevronDownSquare" />
+A select component provides a dropdown list of options.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <Select>
+      <SelectTrigger className="w-[180px]">
+        <SelectValue placeholder="Select a fruit" />
+      </SelectTrigger>
+      <SelectContent>
+        <SelectItem value="apple">Apple</SelectItem>
+        <SelectItem value="banana">Banana</SelectItem>
+        <SelectItem value="blueberry">Blueberry</SelectItem>
+      </SelectContent>
+    </Select>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    import {
+      Select,
+      SelectContent,
+      SelectItem,
+      SelectTrigger,
+      SelectValue,
+    } from "@/components/ui/select";
+
+    export function SelectDemo() {
+      return (
+        <Select>
+          <SelectTrigger className="w-[180px]">
+            <SelectValue placeholder="Select a fruit" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="apple">Apple</SelectItem>
+            <SelectItem value="banana">Banana</SelectItem>
+            <SelectItem value="blueberry">Blueberry</SelectItem>
+          </SelectContent>
+        </Select>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

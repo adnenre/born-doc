@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "/docs/getting-started\\tip-component",
+    "title": "TIP",
+    "content": "Tip Component The Tip component is a built-in MDX component that allows you to highlight important information for the reader. It's great for drawing "
+  },
+  {
+    "slug": "/docs/getting-started\\theming",
+    "title": "Theming",
+    "content": "CSS Variables This project uses CSS variables for theming. You can find the theme variables in src/app/globals.css. By modifying these variables, you "
+  },
+  {
+    "slug": "/docs/getting-started\\introduction",
+    "title": "Introduction",
+    "content": "This is an example documentation page. You can edit this file in src/content/docs/getting-started/introduction.mdx. What is this? This is a starter te"
+  },
+  {
+    "slug": "/docs/getting-started\\installation",
+    "title": "Installation",
+    "content": "System Requirements Node.js 18.x or later npm, pnpm, or yarn Getting Started To get started, clone the repository and install the dependencies: Runnin"
+  },
+  {
+    "slug": "/docs/components\\textarea",
+    "title": "Textarea",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\text",
+    "title": "Text",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\switch",
+    "title": "Switch",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\spinner",
+    "title": "Spinner",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\slider",
+    "title": "Slider",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\select",
+    "title": "Select",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\radio",
+    "title": "Radio",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\progress",
+    "title": "Progress",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\label",
+    "title": "Label",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\input",
+    "title": "Input",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\iconbutton",
+    "title": "IconButton",
+    "content": "import { Button } from \"@/components/ui/button\" import { Bell } from \"lucide-react\" Usage This is a hint for the icon button component. "
+  },
+  {
+    "slug": "/docs/components\\icon",
+    "title": "Icon",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\icon-button",
+    "title": "IconButton",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\heading",
+    "title": "Heading",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\divider",
+    "title": "Divider",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\container",
+    "title": "Container",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\checkbox",
+    "title": "Checkbox",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\button",
+    "title": "Button",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\box",
+    "title": "Box",
+    "content": "Usage "
+  },
+  {
+    "slug": "/docs/components\\badge",
+    "title": "Badge",
+    "content": "import { Badge } from '@/components/ui/badge' import { ComponentPreview } from '@/components/component-preview' Usage Variants "
+  }
+]

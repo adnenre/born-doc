@@ -1,0 +1,54 @@
+---
+title: Theming
+description: "Learn how to customize the theme of your documentation site."
+---
+
+## CSS Variables
+
+This project uses CSS variables for theming. You can find the theme variables in `src/app/globals.css`. By modifying these variables, you can change the color scheme, fonts, and other aspects of the site's appearance.
+
+### Color Palette
+
+Here are the main color variables you can customize:
+
+```css
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+  --primary: 222.2 47.4% 11.2%;
+  --primary-foreground: 210 40% 98%;
+  /* ... and so on */
+}
+
+.dark {
+  --background: 222.2 84% 4.9%;
+  --foreground: 210 40% 98%;
+  /* ... and so on */
+}
+```
+
+To change the primary color, for example, you would update the `--primary` and `--primary-foreground` variables. The colors are defined using HSL values.
+
+## Tailwind CSS
+
+We use Tailwind CSS for styling. You can customize the Tailwind configuration in `tailwind.config.ts`. This allows you to add new colors, fonts, and other utility classes.
+
+### Extending the Theme
+
+You can extend the default theme by adding your own values to the `theme.extend` object in `tailwind.config.ts`.
+
+```ts
+// tailwind.config.ts
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        'brand-blue': '#1e40af',
+      },
+    },
+  },
+  plugins: [],
+}
+```
+
+Now you can use `bg-brand-blue` in your components.

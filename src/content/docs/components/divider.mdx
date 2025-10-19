@@ -1,0 +1,36 @@
+---
+title: Divider
+description: A visual separator between elements.
+---
+<DocsBornHeader title="Divider" iconName="Minus" />
+A divider is a thin line that groups content in lists and layouts.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <div className="flex flex-col gap-2">
+      <span>Item 1</span>
+      <hr />
+      <span>Item 2</span>
+    </div>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    export function DividerDemo() {
+      return (
+        <div className="flex flex-col gap-2">
+          <span>Item 1</span>
+          <hr />
+          <span>Item 2</span>
+        </div>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>

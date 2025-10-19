@@ -1,0 +1,32 @@
+---
+title: Container
+description: A component to wrap content with a max-width and center it.
+---
+<DocsBornHeader title="Container" iconName="Container" />
+A container centers your content horizontally. It's the most basic layout element.
+
+### Usage
+
+<Tabs defaultValue="preview">
+  <TabsList>
+    <TabsTrigger value="preview">Preview</TabsTrigger>
+    <TabsTrigger value="code">Code</TabsTrigger>
+  </TabsList>
+  <TabsContent value="preview">
+    <Callout>This is a preview of the component.</Callout>
+    <div className="container mx-auto rounded-md border bg-card p-4 text-card-foreground shadow-sm">
+      This content is inside a container.
+    </div>
+  </TabsContent>
+  <TabsContent value="code">
+    ```tsx
+    export function ContainerDemo() {
+      return (
+        <div className="container mx-auto rounded-md border bg-card p-4 text-card-foreground shadow-sm">
+          This content is inside a container.
+        </div>
+      );
+    }
+    ```
+  </TabsContent>
+</Tabs>
